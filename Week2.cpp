@@ -20,6 +20,8 @@ int main()
 	cin >> playerTwo;
 
 	//Choice of Rock Paper Scissors
+
+	//Draws
 	if (playerOne == "Rock" && playerTwo == "Rock") {
 		cout << "Draw";
 	}
@@ -28,5 +30,31 @@ int main()
 	}
 	else if (playerOne == "Scissors" && playerTwo == "Scissors") {
 		cout << "Draw";
+	}
+
+	//Player One Wins
+	else if (playerOne == "Rock" && playerTwo == "Scissors") {
+		cout << "Player One Wins";
+	}
+	else if (playerOne == "Paper" && playerTwo == "Rock") {
+		cout << "Player One Wins";
+	}
+	else if (playerOne == "Scissors" && playerTwo == "Paper") {
+		cout << "Player One Wins";
+	}
+
+	//Player Two Wins
+	else if (playerOne == "Scissors" && playerTwo == "Rock") {
+		cout << "Player Two Wins";
+	}
+	else if (playerOne == "Rock" && playerTwo == "Paper") {
+		cout << "Player Two Wins";
+	}
+	else if (playerOne == "Paper" && playerTwo == "Scissors") {
+		cout << "Player Two Wins";
+	}
+
+	else {
+		cout << " ";
 	}
 }	
