@@ -12,14 +12,16 @@ int main()
 	string playerTwo = " ";
 	
 	//Player One Choice
-	cout << "Please pick 'Rock', 'Paper', or 'Scissors'";
+	cout << "Player One, please pick 'Rock', 'Paper', or 'Scissors': ";
 	cin >> playerOne;
+	system("CLS");
 
 	//Player Two Choice
-	cout << "Please pick 'Rock', 'Paper', or 'Scissors'";
+	cout << "Player Two, please pick 'Rock', 'Paper', or 'Scissors': ";
 	cin >> playerTwo;
+	system("CLS");
 
-	//Choice of Rock Paper Scissors
+	//Choice of Rock Paper Scissors//
 
 	//Draws
 	if (playerOne == "Rock" && playerTwo == "Rock") {
