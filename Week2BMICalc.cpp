@@ -70,11 +70,29 @@ int main()
 	calcHolding = height * height;
 	BMI = weight / calcHolding;
 
-	if (BMI < 18.5 && BMI > 12) {
-		cout << "You have a BMI of " << BMI << ". This means you are underweight.";
+	if (BMI < 18.5) {
+	cout << "You have a BMI of " << BMI << ". This means you are very Underweight.";
+	}
+	else if (BMI <= 18.5 && BMI > 12) {
+		cout << "You have a BMI of " << BMI << ". This means you are Underweight.";
 	}
 	else if (BMI >= 18.5 && BMI < 25) {
-		cout << "You have a BMI of " << BMI << ". This means you are a healthy weight.";
+		cout << "You have a BMI of " << BMI << ". This means you are a Healthy Weight.";
 	}
-	else if 
+	else if (BMI >= 25 && BMI < 30) {
+		cout << "You have a BMI of " << BMI << ". This means you are Overweight.";
+	}
+	else if (BMI >= 30 && BMI < 35) {
+		cout << "You have a BMI of " << BMI << ". This means you are Level 1 Obese";
+	}
+	else if (BMI >= 35 && BMI < 40) {
+		cout << "You have a BMI of " << BMI << ". This means you are Level 2 Obese";
+	}
+	else if (BMI >= 40) {
+		cout << "You have a BMI of " << BMI << ". This means you are Level 3 Obese";
+	}
+	else {
+		cout << "Invalid";
+		return 0;
+	}
 }
