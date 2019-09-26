@@ -23,6 +23,17 @@ int main()
 	cout << "Please input the amount of cash you will use\n: ";
 	cin >> cash;
 
-	//if statement to compare 
+	//if statement to compare prices
+	if (select == "mars") {
 
+	}
+	else if (select == "snickers") {
+
+	}
+	else if (select == "bounty") {
+
+	}
+	else {
+
+	}
 }
