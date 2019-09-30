@@ -8,13 +8,11 @@ using namespace std;
 int main()
 {
 	//Variable to hold the counter
-	int counter = 2;
+	int counter = 50;
 
 	//While loop to count to 20
-	while (counter < 21) {
-		if (counter != 10) {
-			cout << counter << ", ";
-		}
-		counter = counter + 2; 
+	while (counter >= 0) {
+		cout << counter << ", ";
+		counter = counter - 1;
 	}
 }
