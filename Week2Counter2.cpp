@@ -13,6 +13,6 @@ int main()
 	//While loop to count to 20
 	while (counter >= 0) {
 		cout << counter << ", ";
-		counter = counter - 1;
+		counter = counter + 1;
 	}
 }
