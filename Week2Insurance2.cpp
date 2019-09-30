@@ -10,7 +10,7 @@ int main()
 	//Variables to hold Age, Engine Size, Pass Plus, Insurance
 	int age = 0;
 	float engineSize = 0;
-	bool passPlus = 0;
+	string passPlus;
 	int insurance = 0;
 
 	//Input for age
@@ -22,7 +22,7 @@ int main()
 	cin >> engineSize;
 
 	//Input for Pass Plus
-	cout << "Did you pass Pass Plus? (Type 'true' or 'false')\n: ";
+	cout << "Did you pass Pass Plus?\n: ";
 	cin >> passPlus;
 
 	//If statement to check age
@@ -50,13 +50,13 @@ int main()
 	}
 
 	//If statement to check if they passed Pass Plus
-	if (passPlus == true) {
+	if (passPlus == "yes") {
 		insurance = insurance - 100;
 	}
-	else if (passplus == false) {
+	else if (passPlus == "no") {
 		insurance = insurance;
 	}
 
 	//Output insurance cost
-	cout << "Your insurance will cost " << insurance << " pounds."
+	cout << "Your insurance will cost " << insurance << " pounds.";
 }
