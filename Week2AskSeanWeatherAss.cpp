@@ -12,7 +12,7 @@ int main()
 	string option;
 
 	//Input for weather
-	cout << "Welcome to Ask Sean, the Number 1 Weather Assistant for the UK!\nWhat is the weather like today?\n: ";
+	cout << "Welcome to AskSean, the Number 1 Weather Assistant for the UK!\nWhat is the weather like today?\n: ";
 	cin >> weather;
 
 
@@ -44,6 +44,7 @@ int main()
 	}
 	else if (weather == "rainy") {
 		cout << "\nTake steriods to grow taller so you can stay above the water and not drown while everyone shorter than you meets an untimely death!!!!\n\n\n\n";
+		cout << "\n\n    you    them   \n~~~~~0~~~~~~~~~~~~\n~~~~/|`~~~~~O~~~~~\n~~~~~|~~~~~~|~~~~~\n~~~~/~`~~~~/~`~~~~\n------------------\n\n\n\n\n";
 	}
 	else {
 		cout << "\nInvalid Response, you should have typed 'rainy'\n\n";
